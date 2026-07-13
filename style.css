@@ -1,0 +1,212 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.menu-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 24px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #575757;
+}
+
+
+button {
+
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid #1D4ED8;
+    background-color: #1D4ED8;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+
+.hero {
+    background-image:
+        linear-gradient(to right,
+            rgba(0, 0, 0, 0.85) 0%,
+            rgba(0, 0, 0, 0.55) 40%,
+            rgba(0, 0, 0, 0.15) 75%,
+            rgba(0, 0, 0, 0) 100%),
+
+        url(./assets/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 786px;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hero-content {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+
+}
+
+
+
+.hero h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+
+}
+
+.hero p {
+    color: white;
+    max-width: 500px;
+    min-height: 300px;
+    text-align: center;
+    margin-bottom: 30px;
+
+
+}
+
+.speakers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.speaker-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.speaker-card {
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.speaker-card img {
+    width: 100%;
+    display: block;
+}
+
+.speaker-info {
+    padding: 10px;
+}
+
+.category {
+    color: #1D4ED8;
+}
+
+
+.pricing {
+    padding: 100px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.pricing h2 {
+    text-align: center;
+}
+
+.pricing p {
+    text-align: center;
+}
+
+.price-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+    margin-top: 48px;
+
+}
+
+.price-card {
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    padding: 32px;
+}
+
+.plan {
+    font-size: 14px;
+    color: #6B7280;
+}
+
+.price-card h3 {
+    font-size: 52px;
+}
+
+.price-card ul {
+    list-style: none;
+}
+
+.price-card li {
+    margin-bottom: 12px;
+}
+
+.featured hr {
+    border-color: #334155;
+}
+
+
+
+.featured {
+    background-color: #0F172A;
+    color: white;
+}
+
+.featured-plan {
+    color: #93C5FD;
+}
+
+.featured-team {
+    background-color: #F8F9FB;
+}
+
+.price-card button {
+    width: 100%;
+    margin-top: 24px;
+}
+
+.featured-team button {
+    background: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.standard-button {
+    background: white;
+    color: #1D4ED8;
+    border: 1px solid #1D4ED8;
+}
+
+
+
